@@ -1,0 +1,22 @@
+{
+  "name": "agent",
+  "version": "0.1.0",
+  "description": "TikTok HTTP interceptor",
+  "main": "src/index.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "frida-compile src/index.ts -o ../_agent.js",
+    "watch": "frida-compile src/index.ts -o ../_agent.js -w"
+  },
+  "author": "p1tsi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/frida-gum": "^18.3.2",
+    "@types/node": "^18.6.2",
+    "frida-compile": "^10.2.5"
+  },
+  "dependencies": {
+    "@types/frida-gum": "^18.3.2",
+    "@types/node": "^18.6.2"
+  }
+}

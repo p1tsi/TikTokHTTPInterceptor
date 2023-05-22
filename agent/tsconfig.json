@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": [
+          "es2022",
+          "es2021.String"
+        ],
+        "target": "es2022",
+        "declaration": true,
+        "typeRoots": ["node_modules/@types"],
+        "downlevelIteration": true,
+        "skipLibCheck": true
+    }
+}
