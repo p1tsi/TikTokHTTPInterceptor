@@ -16,3 +16,5 @@ And start to intercept HTTP requests and responses with:
 ```
 python3 main.py -U -f com.zhiliaoapp.musically
 ```
+
+NB: I do not guarantee that this script intercepts all HTTP traffic made by the app. Maybe other requests/responses are processed by other classes/methods I currently do not hook.
